@@ -1,4 +1,101 @@
-p {
-    color: red;
-    font-size: 70px;
+* {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: lemon_tuesday;
+    src: url(./lemon_tuesday/lemon_tuesday.otf);
+}
+
+@font-face {
+    font-family: breathing;
+    src: url(./breathing/Breathing.ttf);
+}
+
+@font-face {
+    font-family: belianty;
+    src: url(./belianty_elesha/BeliantyElesha.otf);
+}
+
+.halaman1 {
+    background-color: #D9E1D1;
+    height: 600px;
+}
+
+.navbar {
+    height: 50px;
+    background-color: #21286F;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    padding: 0 100px;
+    /* justify-content: center; */
+}
+
+.nav_item {
+    font-family: belianty;
+    font-size: 14px;
+    color: #D9E1D1;
+    letter-spacing: 1px;
+}
+
+.gambar1 {
+    display: grid;
+    align-items: center;
+    height: 70%;
+    margin: 60px auto;
+}
+
+.halaman1 h3 {
+    font-family: breathing;
+    color: #21286F;
+    font-size: 40px;
+    position: absolute;
+    top: 60px;
+    left: 350px;
+}
+
+.nad {
+    font-family: belianty;
+    color: #21286F;
+    font-size: 18px;
+    position: absolute;
+    top: 130px;
+    left: 390px;
+    letter-spacing: 1px;
+}
+
+.ornament {
+    height: 30%;
+    color: #21286F;
+    top: 480px;
+    left: 980px;
+    position: absolute;
+}
+
+/* E6C5DA */
+.halaman2 {
+    background-color: #E6C5DA;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.halaman2 h1 {
+    font-family: belianty;
+    color: #21286F;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.halaman2 h3 {
+    font-family: breathing;
+    color: #7e9e5d;
+    font-size: 30px;
+    letter-spacing: 1px;
 }
